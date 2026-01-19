@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aviso LGPD - Caixa Renderizada</title>
+
+  <!-- Importa fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f5f6f8;
+      padding: 24px;
+      font-family: "IBM Plex Sans", "Source Code Pro", "SOURCE CODE SANS", Arial, Helvetica, sans-serif;
+      color: #37496D;
+    }
+
+    .notice-box {
+      width: 600px;
+      max-width: 100%;
+      padding: 18px 20px;
+      box-sizing: border-box;
+
+      border-radius: 12px;
+      border: 1px solid rgba(55,73,109,0.08);
+      background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(245,248,252,0.95));
+      box-shadow:
+        0 6px 18px rgba(55,73,109,0.06),
+        inset 0 1px 0 rgba(255,255,255,0.6);
+
+      position: relative;
+      overflow: hidden;
+    }
+
+    .notice-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      border-radius: 12px;
+      padding: 1px;
+      background: linear-gradient(90deg, rgba(55,73,109,0.06), rgba(55,73,109,0.02));
+      -webkit-mask: linear-gradient(#000, #000) content-box, linear-gradient(#000, #000);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
+
+    /* TEXTO */
+    .notice-box * {
+      font-size: 12px;
+      color: #37496D;
+      line-height: 1.45;
+      text-align: justify;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-top: 0;
+      text-align: left;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 6px 0;
+    }
+
+    code {
+      display: block;
+      margin-top: 10px;
+      padding: 8px 10px;
+      background: rgba(55,73,109,0.03);
+      border-radius: 6px;
+      font-family: "Source Code Pro", monospace;
+      font-size: 11.5px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="notice-box" role="note">
+
+    <h3>🛡️ <strong>  Aviso de Confidencialidade e Proteção de Dados</strong></h3>
+
+    <p>Esta mensagem, incluindo seus anexos, pode conter informações confidenciais e/ou dados pessoais de caráter restrito, protegidos nos termos da <strong style="color:Tomato;">Lei nº 13.709, de 14 de agosto de 2018 — Lei Geral de Proteção de Dados Pessoais (LGPD)</strong>. O conteúdo desta comunicação destina-se exclusivamente ao(s) destinatário(s) identificado(s), sendo <strong>vedada qualquer forma de acesso, uso, divulgação, cópia ou armazenamento não autorizado</strong>.</p>
+
+    <p>Caso esta mensagem tenha sido recebida por engano, solicitamos que o remetente seja imediatamente notificado e que seu conteúdo seja <strong>apagado de todos os meios eletrônicos e físicos</strong>.</p>
+
+    <p>O tratamento de eventuais dados pessoais contidos nesta comunicação observa os <strong>princípios da finalidade, necessidade, transparência e segurança da informação</strong>, conforme estabelecido nos arts. 6º e 7º da LGPD.</p>
+
+    <p>O remetente e sua organização comprometem-se a adotar <strong>medidas técnicas e administrativas adequadas para proteger os dados pessoais contra acesso não autorizado, perda, alteração ou qualquer forma de tratamento indevido</strong>, em respeito aos direitos fundamentais de liberdade, privacidade e proteção da personalidade do titular dos dados.</p>
+
+    <p> </p>
+    <hr>
+
+    <h4>🔍 <strong>  Base legal e estrutura de referência:</strong></h4>
+
+    <ul>
+      <li><strong>Capítulo I — Disposições Preliminares</strong>
+        <ul>
+          <li><strong>Art. 1º:</strong> objeto e finalidade da LGPD (proteção à liberdade e à privacidade).</li>
+          <li><strong>Art. 2º, incisos I e IV:</strong> fundamentos da proteção de dados (privacidade e inviolabilidade da intimidade, honra e imagem).</li>
+        </ul>
+      </li>
+
+      <li><strong>Capítulo II — Do Tratamento de Dados Pessoais</strong>
+        <ul>
+          <li><strong>Art. 6º:</strong> princípios do tratamento (finalidade, necessidade, transparência, segurança e responsabilização).</li>
+          <li><strong>Art. 7º:</strong> hipóteses legais de tratamento de dados pessoais.</li>
+        </ul>
+      </li>
+
+      <li><strong>Capítulo VI — Da Segurança e das Boas Práticas</strong>
+        <ul>
+          <li><strong>Art. 46:</strong> obrigação de adotar medidas de segurança técnicas e administrativas para proteção dos dados.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <code><strong>Fonte:</strong> Lei nº 13.709/2018 — LGPD.</code>
+
+  </div>
+</body>
+</html>
